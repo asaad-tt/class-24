@@ -63,10 +63,10 @@ img{
 .primary-menu ul li:last-child a{
     border-style: none;
 }
-.primary-menu ul li a:hover{
-    background-color: teal;
+.primary-menu ul li a:hover {
+	background-color: teal;
+	
 }
-
 /* primary-menu drop down  */
 .primary-menu ul li{
     position: relative;
@@ -89,6 +89,11 @@ img{
 }
 .primary-menu ul li ul li{
     display: block;
+    
+}
+.primary-menu ul li ul li a:hover {
+	background-color: teal;
+	margin-left: 0;
 }
 /* banner section  */
 .banner{
